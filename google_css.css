@@ -1,0 +1,69 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#main {
+
+}
+
+#topbar {
+
+}
+
+#logo {
+
+}
+
+#searchbar {
+  display: block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin-top: 0px;
+  min-width: 980px;
+  position: absolute;
+  top: 311px;
+  width: 980px;
+  z-index: 103
+}
+
+#wordsnippit {
+
+}
+
+#footer {
+  font-size: 13px;
+}
+
+#footer_business {
+
+}
+
+#user_agreements {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  text-decoration-color: rgb(0, 0, 0);
+  font-size: 13px;
+  user-select: none;
+}
+
+.footer {
+
+}
