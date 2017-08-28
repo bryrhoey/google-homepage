@@ -7,20 +7,25 @@
 </head>
 <body>
   <div id="topbar">
-    <ul class=ul>
-      <li><a href="https://www.google.com/gmail">Gmail</a></li>
-      <li><a href="#">Images</a></li>
-        <li><a href="#"><img id="app_img" src="images/apps.png"></a></li>
-      <li><button id="signin">Sign In</button></li>
-    </ul>
+    <!-- I'm currently stuck on getting the text links and the Apps image to line up correctly.
+    I'm moving on for now. If anyone has ideas on how to fix it, let me know! -->
+    <div id="topnav">
+      <ul class=ul>
+        <li><a class="navbutton" href="https://www.google.com/gmail">Gmail</a></li>
+        <li><a class="navbutton" href="#">Images</a></li>
+        <li><a class="appbutton" href="#"><img id="app_img" src="images/apps.png"></a></li>
+        <li><button id="signin">Sign In</button></li>
+      </ul>
+    </div>
   </div>
   <div id="logo">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
   </div>
   <div id="searchbar">
-    <input type="text">
-    <input value="Google Search" type="submit">
-    <input value="I'm Feelin' Lucky" type="submit">
+    <input type="text" size="60%">
+    <p></p>
+    <input class="search-button" value="Google Search" type="submit">
+    <input class="search-button" value="I'm Feelin' Lucky" type="submit">
   </div>
   <div id="wordsnippit">
     Some text about a feel good story goes <a href="#">here with a link.</a>
@@ -28,15 +33,15 @@
   <div id="footer">
     <ul id="footer_left">
       <!-- This all goes to the bottom-left -->
-      <li><a href="#">Advertising</li>
-      <li><a href="#">Business</li>
-      <li><a href="#">About</li>
+      <li><a class="fcl" href="#">Advertising</li>
+      <li><a class="fcl" href="#">Business</li>
+      <li><a class="fcl" href="#">About</li>
     </ul>
     <ul id="footer_right">
       <!-- This all goes to the bottom-right -->
-      <li><a href="#">Privacy</li>
-      <li><a href="#">Terms</li>
-      <li><a href="#">Settings</li>
+      <li><a class="fcr" href="#">Privacy</li>
+      <li><a class="fcr" href="#">Terms</li>
+      <li><a class="fcr" href="#">Settings</li>
     </ul>
 
   </div>
